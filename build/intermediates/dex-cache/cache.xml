@@ -2,46 +2,46 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\Anisha\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
-        jumboMode="false"
-        revision="21.0.1"
-        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
-        <dex dex="C:\Users\Anisha\AndroidStudioProjects\Parse-Starter-Project-1.10.3\ParseStarterProject\build\intermediates\pre-dexed\debug\support-annotations-22.2.0-3ae0555537ee6fb8717b72fa3e8ab38b245184b9.jar" />
-    </item>
-    <item
-        jar="C:\Users\Anisha\AndroidStudioProjects\Parse-Starter-Project-1.10.3\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\classes.jar"
+        jar="C:\Users\SONY\AndroidStudioProjects\MCProjectStalkie\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\classes.jar"
         jumboMode="false"
         revision="21.0.1"
         sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
-        <dex dex="C:\Users\Anisha\AndroidStudioProjects\Parse-Starter-Project-1.10.3\ParseStarterProject\build\intermediates\pre-dexed\debug\classes-96da0b0feca32507bcb58a6c23a936e9fb756a21.jar" />
+        <dex dex="C:\Users\SONY\AndroidStudioProjects\MCProjectStalkie\ParseStarterProject\build\intermediates\pre-dexed\debug\classes-4bac312ec32dc6f039e5914c0c28adb6dc6c4b99.jar" />
     </item>
     <item
-        jar="C:\Users\Anisha\AndroidStudioProjects\Parse-Starter-Project-1.10.3\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\jars\classes.jar"
+        jar="D:\Program Files\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="21.0.1"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="C:\Users\SONY\AndroidStudioProjects\MCProjectStalkie\ParseStarterProject\build\intermediates\pre-dexed\debug\support-annotations-22.2.0-ed148b79a2e32691150cd675671d029625c3d8f8.jar" />
+    </item>
+    <item
+        jar="C:\Users\SONY\AndroidStudioProjects\MCProjectStalkie\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\jars\classes.jar"
         jumboMode="false"
         revision="21.0.1"
         sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
-        <dex dex="C:\Users\Anisha\AndroidStudioProjects\Parse-Starter-Project-1.10.3\ParseStarterProject\build\intermediates\pre-dexed\debug\classes-09e92c88df134805c2a05e0000789da4de7e8b42.jar" />
+        <dex dex="C:\Users\SONY\AndroidStudioProjects\MCProjectStalkie\ParseStarterProject\build\intermediates\pre-dexed\debug\classes-928c88de78a7d752f371e5a8768f671c6f7872e6.jar" />
     </item>
     <item
-        jar="C:\Users\Anisha\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-android\1.2.1\44780c2cf98f6a3cf4e77f1234d644758b329201\bolts-android-1.2.1.jar"
-        jumboMode="false"
-        revision="21.0.1"
-        sha1="44780c2cf98f6a3cf4e77f1234d644758b329201">
-        <dex dex="C:\Users\Anisha\AndroidStudioProjects\Parse-Starter-Project-1.10.3\ParseStarterProject\build\intermediates\pre-dexed\debug\bolts-android-1.2.1-bb88be53c264a4fd24b11027c5f14174977a17f0.jar" />
-    </item>
-    <item
-        jar="C:\Users\Anisha\AndroidStudioProjects\Parse-Starter-Project-1.10.3\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\libs\internal_impl-22.2.0.jar"
+        jar="C:\Users\SONY\AndroidStudioProjects\MCProjectStalkie\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\libs\internal_impl-22.2.0.jar"
         jumboMode="false"
         revision="21.0.1"
         sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
-        <dex dex="C:\Users\Anisha\AndroidStudioProjects\Parse-Starter-Project-1.10.3\ParseStarterProject\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-8165d16aed97d6a85b5fd2d42279e87dd304ba2b.jar" />
+        <dex dex="C:\Users\SONY\AndroidStudioProjects\MCProjectStalkie\ParseStarterProject\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-7c430901de8b2afd0e8d7f2bd572e32d0a8777a1.jar" />
     </item>
     <item
-        jar="C:\Users\Anisha\.gradle\caches\modules-2\files-2.1\com.parse\parse-android\1.10.3\36366e460af2c0f224bb8f70b64e3302f638b138\parse-android-1.10.3.jar"
+        jar="C:\Users\SONY\.gradle\caches\modules-2\files-2.1\com.parse\parse-android\1.10.3\36366e460af2c0f224bb8f70b64e3302f638b138\parse-android-1.10.3.jar"
         jumboMode="false"
         revision="21.0.1"
         sha1="36366e460af2c0f224bb8f70b64e3302f638b138">
-        <dex dex="C:\Users\Anisha\AndroidStudioProjects\Parse-Starter-Project-1.10.3\ParseStarterProject\build\intermediates\pre-dexed\debug\parse-android-1.10.3-64d898d4ba943c47919e8f4a054d88bc9f98c47d.jar" />
+        <dex dex="C:\Users\SONY\AndroidStudioProjects\MCProjectStalkie\ParseStarterProject\build\intermediates\pre-dexed\debug\parse-android-1.10.3-be3392bd167204edca08c72265395c9c30b7d399.jar" />
+    </item>
+    <item
+        jar="C:\Users\SONY\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-android\1.2.1\44780c2cf98f6a3cf4e77f1234d644758b329201\bolts-android-1.2.1.jar"
+        jumboMode="false"
+        revision="21.0.1"
+        sha1="44780c2cf98f6a3cf4e77f1234d644758b329201">
+        <dex dex="C:\Users\SONY\AndroidStudioProjects\MCProjectStalkie\ParseStarterProject\build\intermediates\pre-dexed\debug\bolts-android-1.2.1-a4e5b4d0f800ebe30c3b2f2be8f77edadb20062a.jar" />
     </item>
 
 </items>
