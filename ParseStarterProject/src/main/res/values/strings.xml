@@ -20,5 +20,6 @@
     <string name="error_blank_password">Blank Password</string>
     <string name="error_join">and</string>
     <string name="error_end">. Please enter details again.</string>
+    <string name="error_mismatched_passwords">Enter the same password twice</string>
 
 </resources>
