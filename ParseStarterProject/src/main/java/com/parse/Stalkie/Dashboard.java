@@ -27,7 +27,6 @@ public class Dashboard extends AppCompatActivity {
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.menu_dashboard,menu);
-//        toolbar.inflateMenu(R.menu.menu_dashboard);
         return true;
     }
 
