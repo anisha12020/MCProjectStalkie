@@ -8,6 +8,7 @@
  */
 package com.parse.Stalkie;
 
+import android.app.Activity;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
@@ -16,7 +17,7 @@ import android.view.MenuItem;
 import com.parse.ParseAnalytics;
 
 
-public class MainActivity extends ActionBarActivity {
+public class MainActivity extends Activity {
 
   @Override
   protected void onCreate(Bundle savedInstanceState) {
@@ -32,6 +33,7 @@ public class MainActivity extends ActionBarActivity {
     getMenuInflater().inflate(R.menu.menu_main, menu);
     return true;
   }
+//setContentView(R.layout.activity_main);
 
   @Override
   public boolean onOptionsItemSelected(MenuItem item) {
