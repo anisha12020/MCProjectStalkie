@@ -26,26 +26,61 @@
         <EditText
             android:layout_width="273dp"
             android:layout_height="wrap_content"
-            android:id="@+id/editText"
+            android:id="@+id/username"
             android:hint="Username" />
 
         <EditText
             android:layout_width="273dp"
             android:layout_height="wrap_content"
-            android:id="@+id/editText2"
-            android:hint="Password" />
+            android:id="@+id/password"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:singleLine="true"
+            />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Sign In"
-            android:id="@+id/button" />
+            android:id="@+id/signin" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OR"/>
+
+        <EditText
+            android:layout_width="273dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/username2"
+            android:hint="Username" />
+
+        <EditText
+            android:layout_width="273dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/password_signup1"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:singleLine="true"
+            />
+
+        <EditText
+            android:layout_width="273dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/password_signup2"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:singleLine="true"
+            />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Sign up"
-            android:id="@+id/button2" />
+            android:id="@+id/signup" />
 
     </LinearLayout>
 </LinearLayout>
