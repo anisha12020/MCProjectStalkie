@@ -10,6 +10,8 @@
         android:id="@+id/tool_bar"
         layout="@layout/tool_bar">
     </include>
+
+
     <TextView
         android:layout_below="@+id/tool_bar"
         android:text="@string/app_name"

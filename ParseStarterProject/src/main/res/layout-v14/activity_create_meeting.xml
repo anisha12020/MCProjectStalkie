@@ -1,0 +1,124 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.parse.Stalkie.CreateMeetingActivity"
+    android:orientation="vertical">
+    <include
+        android:id="@+id/tool_bar"
+        layout="@layout/tool_bar">
+    </include>
+    <TextView
+        android:id="@+id/TitleLabel"
+        android:layout_below="@+id/tool_bar"
+        android:text="Title"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/TitleText"
+        android:layout_below="@+id/TitleLabel"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp" />
+    <TextView
+        android:id="@+id/DescriptionLabel"
+        android:layout_below="@+id/TitleText"
+        android:text="Desciption"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/DescriptionText"
+        android:layout_below="@+id/DescriptionLabel"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp" />
+    <TextView
+        android:id="@+id/DateLabel"
+        android:layout_below="@+id/DescriptionText"
+        android:text="Date"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/DateText"
+        android:layout_below="@+id/DateLabel" />
+
+    <TextView
+        android:id="@+id/TimeLabel"
+        android:layout_below="@+id/DateText"
+        android:text="Time"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/TimeText"
+        android:layout_below="@+id/TimeLabel"></EditText>
+    <TextView
+        android:id="@+id/LocationLabel"
+        android:layout_below="@+id/TimeText"
+        android:text="Location"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/LocationText"
+        android:layout_below="@+id/LocationLabel"></EditText>
+
+    <TextView
+        android:id="@+id/AddUserLabel"
+        android:layout_below="@+id/LocationText"
+        android:text="Add Users"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content" />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/AddUserLabel"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp">
+        <ImageButton
+            android:id="@+id/AddUserButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:background="@mipmap/ic_person_add_black_24dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_alignParentTop="true" android:layout_alignParentRight="true"
+
+
+            />
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true" android:layout_width="match_parent"
+            android:hint="Enter Username"
+            android:id="@+id/AddUserText"
+            android:layout_toLeftOf="@+id/AddUserButton"></EditText>
+
+    </RelativeLayout>
+</RelativeLayout>
