@@ -14,6 +14,8 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
 
+import com.parse.ParseUser;
+
 public class Dashboard extends AppCompatActivity {
 
     private Toolbar toolbar;
@@ -59,6 +61,12 @@ public class Dashboard extends AppCompatActivity {
             Intent intent = new Intent(Dashboard.this, CreateMeetingActivity.class);
             startActivity(intent);
 
+        }
+        if (id == R.id.action_logout) {
+            ParseUser.logOut();
+            Intent intent = new Intent(Dashboard.this, DispatchActivity.class);
+            intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
+            startActivity(intent);
         }
         return super.onOptionsItemSelected(item);
     }

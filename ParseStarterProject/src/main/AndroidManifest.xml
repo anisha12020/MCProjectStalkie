@@ -27,13 +27,20 @@
             android:value="@string/parse_client_key" />
 
         <activity
+            android:name=".DispatchActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
             android:name=".MainActivity"
             android:label="@string/app_name" >
         </activity>
         <activity
             android:name=".Dashboard"
             android:label="@string/title_activity_dashboard" >
-
         </activity>
         <activity
             android:name=".CreateMeetingActivity"
@@ -42,10 +49,6 @@
         <activity
             android:name=".MeetingActivity"
             android:label="@string/title_activity_meeting" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
     </application>
 

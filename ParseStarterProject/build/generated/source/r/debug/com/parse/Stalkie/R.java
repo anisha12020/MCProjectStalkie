@@ -1790,14 +1790,24 @@ containing a value of this type.
         public static final int menu_meeting=0x7f0d0003;
     }
     public static final class mipmap {
-        public static final int ic_add_white_24dp=0x7f030000;
-        public static final int ic_arrow_back_white_24dp=0x7f030001;
-        public static final int ic_done_white_24dp=0x7f030002;
-        public static final int ic_edit_white_24dp=0x7f030003;
-        public static final int ic_launcher=0x7f030004;
-        public static final int ic_menu_white_24dp=0x7f030005;
-        public static final int ic_person_add_black_24dp=0x7f030006;
-        public static final int ic_search_white_24dp=0x7f030007;
+        public static final int back1=0x7f030000;
+        public static final int background1=0x7f030001;
+        public static final int background3=0x7f030002;
+        public static final int header1=0x7f030003;
+        public static final int header2=0x7f030004;
+        public static final int header3=0x7f030005;
+        public static final int ic_add_white_24dp=0x7f030006;
+        public static final int ic_arrow_back_white_24dp=0x7f030007;
+        public static final int ic_done_white_24dp=0x7f030008;
+        public static final int ic_edit_white_24dp=0x7f030009;
+        public static final int ic_launcher=0x7f03000a;
+        public static final int ic_menu_white_24dp=0x7f03000b;
+        public static final int ic_person_add_black_24dp=0x7f03000c;
+        public static final int ic_search_white_24dp=0x7f03000d;
+        public static final int map=0x7f03000e;
+        public static final int profileback=0x7f03000f;
+        public static final int signin3=0x7f030010;
+        public static final int signup3=0x7f030011;
     }
     public static final class string {
         public static final int abc_action_bar_home_description=0x7f060000;
@@ -1833,14 +1843,17 @@ containing a value of this type.
         public static final int error_intro=0x7f06001f;
         public static final int error_join=0x7f060020;
         public static final int error_mismatched_passwords=0x7f060021;
-        public static final int hello_blank_fragment=0x7f060022;
-        public static final int hello_world=0x7f060023;
-        public static final int parse_app_id=0x7f060024;
-        public static final int parse_client_key=0x7f060025;
+        public static final int error_not_an_email=0x7f060022;
+        public static final int hello_blank_fragment=0x7f060023;
+        public static final int hello_world=0x7f060024;
+        public static final int parse_app_id=0x7f060025;
+        public static final int parse_client_key=0x7f060026;
+        public static final int progress_login=0x7f060027;
+        public static final int progress_signup=0x7f060028;
         public static final int status_bar_notification_info_overflow=0x7f060013;
-        public static final int title_activity_create_meeting=0x7f060026;
-        public static final int title_activity_dashboard=0x7f060027;
-        public static final int title_activity_meeting=0x7f060028;
+        public static final int title_activity_create_meeting=0x7f060029;
+        public static final int title_activity_dashboard=0x7f06002a;
+        public static final int title_activity_meeting=0x7f06002b;
     }
     public static final class style {
         public static final int AlertDialog_AppCompat=0x7f09007d;
