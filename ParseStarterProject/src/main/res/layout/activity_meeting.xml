@@ -1,0 +1,110 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.parse.Stalkie.MeetingActivity">
+    <include
+        android:id="@+id/tool_bar"
+        layout="@layout/tool_bar">
+    </include>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:text="Mobile Computing Group Meeting"
+        android:textStyle="bold"
+        android:id="@+id/meetingTitle"
+        android:layout_below="@+id/tool_bar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:text="Meeting to discuss the midsem demo progress, compile work, and write the report"
+        android:id="@+id/meetingDescription"
+        android:layout_below="@+id/meetingTitle"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:text="Host - "
+        android:id="@+id/meetingHost"
+        android:layout_below="@+id/meetingDescription"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:text="Date - "
+        android:id="@+id/meetingDate"
+        android:layout_below="@+id/meetingHost"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:text="Time - "
+        android:id="@+id/meetingTime"
+        android:layout_below="@+id/meetingDate"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:text="Venue - "
+        android:id="@+id/meetingVenue"
+        android:layout_below="@+id/meetingTime"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/meetingVenue"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/userLocationButton"
+        android:text="See All User Location"
+        android:enabled="false"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:text="Users "
+        android:id="@+id/meetingUsers"
+        android:layout_below="@+id/userLocationButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/meetingUsers"
+        android:id="@+id/userList"
+        >
+
+    </ListView>
+</RelativeLayout>

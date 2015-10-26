@@ -23,6 +23,13 @@
         android:orderInCategory="100"
         compat:showAsAction="never"/>
     <item
+        android:id="@+id/action_search"
+        android:orderInCategory="200"
+        android:title="@string/action_add"
+        android:icon="@mipmap/ic_search_white_24dp"
+        compat:showAsAction="ifRoom">
+    </item>
+    <item
         android:id="@+id/action_add"
         android:orderInCategory="200"
         android:title="@string/action_add"
