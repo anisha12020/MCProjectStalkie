@@ -48,14 +48,15 @@ public class CreateMeetingActivity extends Dashboard {
         if (id == R.id.action_done) {
             Toast.makeText(getApplicationContext(), "Meeting Created",
                     Toast.LENGTH_SHORT).show();
-            Intent intent = new Intent(this, Dashboard.class);
+            supportInvalidateOptionsMenu();
+            Intent intent = new Intent(this, MeetingActivity.class);
             startActivity(intent);
-            return true;
+
         }
         if (id == R.id.action_back) {
             Intent intent = new Intent(this, Dashboard.class);
             startActivity(intent);
-            return true;
+
         }
       return super.onOptionsItemSelected(item);
 
