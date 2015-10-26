@@ -160,6 +160,11 @@ public class MainActivity extends Activity {
             validationErrorMessage.append(getString(R.string.error_not_an_email));
         }
 
+        if(!username.contains(".")) {
+            validationError = true;
+            validationErrorMessage.append(getString(R.string.error_not_an_email));
+        }
+
         if (password.length() == 0) {
             if (validationError) {
                 validationErrorMessage.append(getString(R.string.error_join));

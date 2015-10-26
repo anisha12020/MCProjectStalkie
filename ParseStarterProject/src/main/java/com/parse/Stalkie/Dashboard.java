@@ -71,28 +71,7 @@ public class Dashboard extends AppCompatActivity implements LocationListener {
         setContentView(R.layout.activity_dashboard);
         toolbar = (Toolbar) findViewById(R.id.tool_bar);
         setSupportActionBar(toolbar);
-        //ActionBar actionBar = getSupportActionBar();
-//        adapter =  new ViewPagerAdapter(getSupportFragmentManager(),Titles,Numboftabs);
-//
-//        // Assigning ViewPager View and setting the adapter
-//        pager = (ViewPager) findViewById(R.id.pager);
-//        pager.setAdapter(adapter);
-//
-//        // Assiging the Sliding Tab Layout View
-//        tabs = (SlidingTabLayout) findViewById(R.id.tabs);
-//        tabs.setDistributeEvenly(true); // To make the Tabs Fixed set this true, This makes the tabs Space Evenly in Available width
-//
-//        // Setting Custom Color for the Scroll bar indicator of the Tab View
-//        tabs.setCustomTabColorizer(new SlidingTabLayout.TabColorizer() {
-//            @Override
-//            public int getIndicatorColor(int position) {
-//                return getResources().getColor(R.color.tabsScrollColor);
-//            }
-//        });
-//
-//        // Setting the ViewPager For the SlidingTabsLayout
-//        tabs.setViewPager(pager);
-//
+
         mSectionsPagerAdapter = new SectionsPagerAdapter(getSupportFragmentManager());
         ActionBar actionBar = getSupportActionBar();
 
@@ -160,7 +139,12 @@ public class Dashboard extends AppCompatActivity implements LocationListener {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
-            Toast.makeText(getApplicationContext(), "Settings icon",
+            Toast.makeText(getApplicationContext(), "Settings page",
+                    Toast.LENGTH_SHORT).show();
+            return true;
+        }
+        if (id == R.id.action_profile) {
+            Toast.makeText(getApplicationContext(), "Profile page",
                     Toast.LENGTH_SHORT).show();
             return true;
         }
@@ -192,7 +176,6 @@ public class Dashboard extends AppCompatActivity implements LocationListener {
     @Override
     public void onLocationChanged(final Location location) {
         if(ParseUser.getCurrentUser() != null) {
-            mUserLocation = (TextView) findViewById(R.id.user_location);
             mUserLocation.setText(ParseUser.getCurrentUser().getUsername()
                     + "\nLatitude: " + location.getLatitude()
                     + "\nLongitude: " + location.getLongitude());
