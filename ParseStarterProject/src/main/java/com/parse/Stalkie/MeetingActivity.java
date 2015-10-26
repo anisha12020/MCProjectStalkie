@@ -1,12 +1,15 @@
 package com.parse.Stalkie;
 
 import android.content.Context;
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.ListView;
 
 import com.parse.Stalkie.R;
@@ -34,6 +37,14 @@ public class MeetingActivity extends AppCompatActivity {
         listview.setAdapter(adapter);
         toolbar = (Toolbar) findViewById(R.id.tool_bar);
         setSupportActionBar(toolbar);
+        final Button button = (Button) findViewById(R.id.userLocationButton);
+        button.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                // Perform action on click
+                Intent intent = new Intent(MeetingActivity.this, ViewLocation.class);
+                startActivity(intent);
+            }
+        });
     }
 
     @Override

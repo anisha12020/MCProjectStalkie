@@ -41,7 +41,7 @@
     <string name="title_section2">Meetings</string>
     <string name="title_section3">Xyz</string>
     <string name="title_activity_view_location">Participants Location</string>
-    <string name="title_activity_meeting">MeetingActivity</string>
+
 
     <string name="progress_login">Logging you in&#8230;</string>
     <string name="progress_signup">Signing you up&#8230;</string>
